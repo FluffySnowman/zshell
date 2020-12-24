@@ -18,13 +18,13 @@ def doInput():
     global inputtext
     inputbox = Entry(window, bd = 4)
     inputbox.pack(side = LEFT)
-    inputbox.place(x=20, y=30)
+    inputbox.place(x=20, y=30, height = 30, width = 400)
     inputbox.bind('<Return>', doButton)
 def doButton():
     global button1
     button1 = Button(window, text = "Execute", 
                          command = combine_funcs(doCommand, doText))
-    button1.place(x = 170, y = 30)
+    button1.place(x = 430, y = 30)
 def doCommand():
     global output
     inputtext = inputbox.get()
