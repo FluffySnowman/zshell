@@ -9,6 +9,8 @@ def combine_funcs(*funcs):
 def createWindow():
     global window
     window = Tk()
+    window.title("zShell")
+    window['bg'] = 'black'
     window.geometry("800x500")
 def doInput():
     global inputbox
@@ -31,6 +33,7 @@ def doText():
     global textbox
     textbox = Text(window)
     textbox.place(x = 30, y = 70)
+    textbox.config(fg="green", bg="black")
     textbox.insert(INSERT, output)
 def mainLoop():
     window.mainloop()
