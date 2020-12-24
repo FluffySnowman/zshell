@@ -1,3 +1,3 @@
 # zShell
 
-An easy to use shell built in python
+A shell built in python
