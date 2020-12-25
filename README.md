@@ -28,4 +28,5 @@ The output of the respective command will be displayed in a text box below the i
 
 # Complications
 
-Some commands that require an interrupt to stop (such as 'ping') may not work correctly. The window and the execute button may hang or be disfunctional when this happens.
+- Some commands that require an interrupt to stop (such as 'ping') may not work correctly. The window and the execute button may hang or be disfunctional when this happens.
+- Each command is redireced back to the zshell directory. using 'cd ..' or 'cd' to any path will not work. BYPASS:- To bypass this you will have to run 'cd /your/path && command'. Make sure to add '&&'. Use it as many times as you want to stack commands.
