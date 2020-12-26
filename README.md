@@ -12,7 +12,7 @@ cd zshell
 
 ### Executing
 
-Simply run the zShell.py file with python 3 like so:-
+Run zShell.py file with python 3 like so:-
 
 ```bash
 python3 zShell.py
