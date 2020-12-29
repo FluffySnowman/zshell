@@ -48,4 +48,3 @@ if __name__ == "__main__":
     window.bind('<Return>', pressEnter)
     doButton()
     mainLoop()
-    
