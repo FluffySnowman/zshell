@@ -1,6 +1,6 @@
 # zShell
 
-A shell built in python
+A simple shell built in python
 
 ### Installation
 
