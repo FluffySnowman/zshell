@@ -1,7 +1,7 @@
 import tkinter
 from tkinter import *
 import os
-os.chdir(os.path.abspath(os.path.expanduser('~')))
+#os.chdir(os.path.abspath(os.path.expanduser('~')))
 def combine_funcs(*funcs):
     def combined_func(*args, **kwargs):
         for f in funcs:
