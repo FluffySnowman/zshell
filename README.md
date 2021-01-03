@@ -24,7 +24,7 @@ To run a command using zShell, you need to use the text box provided at the top 
 
 Type in the command you want to execute and then either click the execute button or press the return/enter key on your keyboard.
 
-The output of the respective command will be displayed in a text box below the input box.
+The output of the respective command will be displayed in a text box below the input box in green text(homebrew theme).
 
 # Complications
 
