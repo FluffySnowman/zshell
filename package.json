@@ -1,0 +1,23 @@
+{
+  "name": "zshell",
+  "version": "1.0.0",
+  "description": "A simple shell built in python",
+  "main": "index.js",
+  "dependencies": {
+    "xterm": "^4.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FluffySnowman/zshell.git"
+  },
+  "author": "Fluffy Snowman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FluffySnowman/zshell/issues"
+  },
+  "homepage": "https://github.com/FluffySnowman/zshell#readme"
+}
